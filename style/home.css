@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Ghastly Panic";
+  src: url("../fonts/Ghastly Panic.ttf");
+}
+
+body {
+	/* General Styling */
+	background-image: url("../img/ANTI_FLEA_BACKGROUND.png");
+	background-repeat: no-repeat;
+	background-size: 100vw;
+	background-position: center;
+	
+	/* Text */
+	text-align: center;
+}
+
+h1, th {
+	font-family: "Ghastly Panic";
+	font-size: 1.5em;
+	letter-spacing: 10px;
+}
+
+table {
+	width: 100%;
+	text-align: center;
+}
+
+th {
+	width: 50%;
+}
+
+td {
+	font-size: 1.25em;
+}
