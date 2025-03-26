@@ -6,6 +6,10 @@
 body {
 	/* General Styling */
 	background-color: #240303;
+	background-image: url("../img/ANTI_FLEA_BACKGROUND.png");
+	background-repeat: no-repeat;
+	background-size: 100vw;
+	background-position: center;
 	
 	/* Text */
 	color: #ffffff;
@@ -81,7 +85,12 @@ a:not(#clickhere, #home):hover {
 
 table img {
 	border-radius: 10px 50px;
-	margin: 0 25px;
+}
+
+td {
+	width: calc(100% / 3);
+	padding: 15px;
+	vertical-align: top;
 }
 
 #home {
