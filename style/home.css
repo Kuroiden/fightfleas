@@ -14,7 +14,7 @@ body {
 	text-align: center;
 }
 
-h1, th {
+th {
 	font-family: "Ghastly Panic";
 	font-size: 1.5em;
 	letter-spacing: 10px;
@@ -27,8 +27,17 @@ table {
 
 th {
 	width: 50%;
+	color: #d10d0d;
+	font-weight: 900;
 }
 
 td {
 	font-size: 1.25em;
+}
+
+#weblinks {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 0;
+	padding-bottom: 0;
 }

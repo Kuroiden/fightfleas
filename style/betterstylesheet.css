@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Ghastly Panic";
+  src: url("../fonts/Ghastly Panic.ttf");
+}
+
+body {
+	/* General Styling */
+	background-color: #240303;
+	
+	/* Text */
+	color: #ffffff;
+	font-size: 1em;
+	font-family: "Courier New";
+}
+
+/* h1, h2, h3, h4, h5, h6 {
+	font-family: "Outfit";
+	line-height: .5;
+	font-weight: 700;
+} */
+
+section {
+	background-color: #121212;
+	margin: -16px 100px -8px;	
+	padding: 35px 65px;
+	text-align: center;
+}
+
+#navbar {
+	background-color: #2b0606;
+	width: calc(vw + 7px);
+	position: sticky;
+	margin: -8px;
+	top: 0;
+	
+}
+
+a {
+	background-image: url("../img/UNSQUASHED_FLEA_icomn.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	padding: 75px 0;
+	
+	/* Text */
+	color: #ffffff;
+	font-family: "Ghastly Panic";
+	text-align: center;
+	font-size: 3em;
+	font-weight: 900;
+	letter-spacing: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:hover {
+	/*background-color: #0d0101;
+	box-shadow: 0 3px 0 #ffffff;*/
+
+	/* Text */
+	color: #d10d0d;
+	text-decoration: none;
+	text-shadow:
+		-1px -1px 0 #ffffff,  
+		1px -1px 0 #ffffff,
+		-1px 1px 0 #ffffff,
+		1px 1px 0 #ffffff;
+
+}
+
+:not(#clickhere):hover {
+	background-image: url("../img/SQUASHED_FLEE_icomn.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+#top {
+	margin-top: 35px;
+	border-radius: 30px 30px 0 0;
+}

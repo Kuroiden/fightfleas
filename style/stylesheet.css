@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Ghastly Panic";
+  src: url("../fonts/Ghastly Panic.ttf");
+}
+
 body {
 	/* General Styling */
 	background-color: #240303;
@@ -8,16 +13,23 @@ body {
 	font-family: "Courier New";
 }
 
-/* h1, h2, h3, h4, h5, h6 {
-	font-family: "Outfit";
-	line-height: .5;
-	font-weight: 700;
-} */
+h1, h2 {
+	font-family: "Ghastly Panic";
+	font-size: 1.5em;
+	letter-spacing: 10px;
+}
+
+h2 {
+	padding: 0;
+	font-size: 3.5em;
+	color: #d10d0d;
+}
 
 section {
 	background-color: #121212;
 	margin: -16px 100px -8px;	
 	padding: 35px 65px;
+	text-align: center;
 }
 
 #navbar {
@@ -30,15 +42,21 @@ section {
 }
 
 a {
-	padding: 10px 25px;
+	background-image: url("../img/UNSQUASHED_FLEA_icomn.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	padding: 75px 0;
 	
 	/* Text */
-	color: #ffffff;
-	font-family: "Outfit";
-	text-align: center;
-	font-size: 2.5em;
-	font-weight: 400;
+	color: #d10d0d;
 	text-decoration: none;
+	font-family: "Ghastly Panic";
+	text-align: center;
+	font-size: 3em;
+	font-weight: 900;
+	letter-spacing: 10px;
+	text-transform: uppercase;
 }
 
 a:hover {
@@ -46,31 +64,40 @@ a:hover {
 	box-shadow: 0 3px 0 #ffffff;*/
 
 	/* Text */
-	color: #d10d0d;
 	text-decoration: none;
 	text-shadow:
-		-1px -1px 0 #ffffff,  
-		1px -1px 0 #ffffff,
-		-1px 1px 0 #ffffff,
-		1px 1px 0 #ffffff;
-
+		-0.5px -0.5px 0 #ffffff,  
+		0.5px -0.5px 0 #ffffff,
+		-0.5px 0.5px 0 #ffffff,
+		0.5px 0.5px 0 #ffffff;
 }
 
-#link1 {
-	background-image: url("../img/UNSQUASHED_FLEA_icomn.png");
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center;
-}
-
-#link1:hover {
+a:not(#clickhere, #home):hover {
 	background-image: url("../img/SQUASHED_FLEE_icomn.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
 }
 
+table img {
+	border-radius: 10px 50px;
+	margin: 0 25px;
+}
+
+#home {
+	background-image: url("../img/FIGHT_FLEAS_logo.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	padding: 75px 0;
+}
+
 #top {
 	margin-top: 35px;
 	border-radius: 30px 30px 0 0;
+}
+
+#return {
+	display: flex;
+	justify-content: space-around;
 }
