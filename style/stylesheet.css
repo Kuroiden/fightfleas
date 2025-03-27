@@ -88,6 +88,10 @@ table img {
 }
 
 td {
+	padding: 15px 0;
+}
+
+#diseases td {
 	width: calc(100% / 3);
 	padding: 15px;
 	vertical-align: top;
